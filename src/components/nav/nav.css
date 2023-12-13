@@ -1,0 +1,37 @@
+@font-face {
+    font-family: sinkin-sans;
+    src: url(../../../public/fonts/SinkinSans-300Light.otf);
+}
+.sinkinsans {
+    font-family: sinkin-sans;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-left: 20px;
+    height: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-family: 'sinkin-sans', sans-serif;
+    font-size: 9px;
+    color: black;
+    margin-right: 30px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 3%;
+    height: auto;
+}

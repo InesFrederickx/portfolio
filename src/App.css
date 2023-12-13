@@ -1,0 +1,8 @@
+@font-face {
+    font-family: sinkinsans;
+    src: url(../public/fonts/SinkinSans-300Light.otf);    
+}
+
+.sinkinsans {
+    font-family: sinkinsans;
+}
