@@ -1,0 +1,12 @@
+@import url(../../fonts.css);
+
+
+.about {
+    min-height: calc(100vh - 326px);
+    width: 100%;
+}
+
+.about title {
+    font-family: 'sinkin-sans', sans-serif;
+    font-size: 30px;
+}

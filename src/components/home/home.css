@@ -1,5 +1,11 @@
 @import url(../../fonts.css);
 
+
+.home {
+    min-height: calc(100vh - 326px);
+    width: 100%;
+}
+
 .name {
     font-family: 'sprat-condensedblack', sans-serif;
     font-size: 35px;

@@ -3,10 +3,19 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    position: relative;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding-left: 50px;
     height: 60px;
+    z-index: 1000;
+}
+
+.nav-links {
+    position: absolute;
+    left: 50px;
 }
 
 .nav-item {
