@@ -1,0 +1,15 @@
+@import url(../../fonts.css);
+
+.name {
+    font-family: 'sprat-condensedblack', sans-serif;
+    font-size: 35px;
+    margin-top: 250px;
+    margin-left: 300px;
+}
+
+.branche {
+    font-family: 'sinkin-sans', sans-serif;
+font-size: 20px;
+
+    text-align: right;
+}

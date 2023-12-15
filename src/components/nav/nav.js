@@ -6,12 +6,12 @@ export class nav extends Component {
   render() {
     return (
         <nav className="navbar">
-        <div className="nav-links">
-          <a href="#about" className='nav-item'>About</a>
-          <a href="#work" className='nav-item'>Work</a>
-          <a href="#contact" className='nav-item'>Contact</a>
-        </div>
-        <img src={logo} alt="Logo" className="nav-logo" />
+          <div className="nav-links">
+            <a href="#about" className='nav-item'>ABOUT</a>
+            <a href="#work" className='nav-item'>WORK</a>
+            <a href="#contact" className='nav-item'>CONTACT</a>
+          </div>
+          <img src={logo} alt="Logo" className="nav-logo" />
       </nav>
     )
   }

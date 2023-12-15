@@ -1,0 +1,15 @@
+@font-face {
+    font-family: sinkin-sans;
+    src: url(../public/fonts/SinkinSans-300Light.otf);
+}
+.sinkin-sans {
+    font-family: sinkin-sans;
+}
+
+@font-face {
+    font-family: sprat-condensedblack;
+    src: url(../public/fonts/Sprat-CondensedBlack.otf);
+}
+.sprat-condensedblack{
+    font-family: sprat-condensedblack;
+}
