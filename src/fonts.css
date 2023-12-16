@@ -1,15 +1,23 @@
 @font-face {
-    font-family: sinkin-sans;
+    font-family: sinkin-sans300;
     src: url(../public/fonts/SinkinSans-300Light.otf);
 }
-.sinkin-sans {
-    font-family: sinkin-sans;
+.sinkin-sans300 {
+    font-family: sinkin-sans300;
 }
 
 @font-face {
-    font-family: sprat-condensedblack;
-    src: url(../public/fonts/Sprat-CondensedBlack.otf);
+    font-family: sinkin-sans100;
+    src: url(../public/fonts/SinkinSans-100Thin.otf);
 }
-.sprat-condensedblack{
-    font-family: sprat-condensedblack;
+.sinkin-sans100 {
+    font-family: sinkin-sans100;
+}
+
+@font-face {
+    font-family: sprat-condensedmedium;
+    src: url(../public/fonts/Sprat-CondensedMedium.otf);
+}
+.sprat-condensedmedium{
+    font-family: sprat-condensedmedium;
 }

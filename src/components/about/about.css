@@ -2,13 +2,76 @@
 
 
 .about {
+    position: relative;
     min-height: 100vh;
     width: 100%;
 }
 
 .title {
-    font-family: 'sinkin-sans', sans-serif;
+    font-family: 'sinkin-sans100', sans-serif;
     font-size: 30px;
     padding-top: 160px;
     text-align: center;
 }
+
+.text {
+    font-family: 'sinkin-sans300', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 300px;
+}
+
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns with equal width */
+    justify-content: flex-end; /* Aligns container to the end (right) */
+    position: absolute; /* Positions container absolutely within .about */
+    bottom: 0; /* Aligns to the bottom */
+    right: 0; /* Aligns to the right */
+    gap: 20px; /* Spacing between categories */
+    padding: 20px;
+    max-width: 850px;
+}
+.category {
+    margin-bottom: 20px;
+    font-family: 'sinkin-sans100', sans-serif;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: 'sinkin-sans300', sans-serif;
+}
+
+.skills span {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+}
+
+.development span {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.design span{
+    background: #F2F2EF;
+    color: black;
+    border: 1px solid black;
+}
+
+/*@media (max-width: 768px) {
+.skills-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    bottom: 10px;
+    right: 10px;
+}
+.skills span {
+    padding: 4px 8px;
+    font-size: 0.7em;
+}
+}*/
