@@ -1,6 +1,5 @@
 @import url(../../fonts.css);
 
-
 .home {
     min-height: calc(100vh - 326px);
     width: 100%;
@@ -17,7 +16,7 @@
     font-family: 'sinkin-sans', sans-serif;
     font-size: 25px;
 
-    position: fixed;
+    position: absolute;
     right: 80px;
     bottom: 50px;
 }

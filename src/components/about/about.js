@@ -5,8 +5,7 @@ export class about extends Component {
   render() {
     return (
       <div className='about'>
-        <title><h2>ABOUT</h2></title>
-
+        <div className='title'><h2>ABOUT</h2></div>
       </div>
     )
   }
