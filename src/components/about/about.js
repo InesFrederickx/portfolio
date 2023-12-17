@@ -4,7 +4,8 @@ import './about.css';
 export class about extends Component {
   render() {
     return (
-      <div className='about'>
+      <div className='section'>
+      <div className='about-page'>
         <div className='title'><h2>ABOUT</h2></div>
         <div className='text'><p>Specializing in front-end development, I craft digital experiences that are not only visually 
             captivating but also intuitively accessible to users. With a focus on responsive and dynamic interfaces, I ensure 
@@ -39,6 +40,7 @@ export class about extends Component {
                 </div>
             </div>
         </div>
+      </div>
       </div>
     )
   }

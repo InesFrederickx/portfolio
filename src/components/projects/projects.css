@@ -1,0 +1,58 @@
+@import url(../../fonts.css);
+
+.title {
+  font-family: 'sinkin-sans100', sans-serif;
+  font-size: 30px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Adjusted spacing between text and video */
+  width: 100%;
+}
+
+.project-info {
+  width: 50%; /* Set width to 50% */
+  text-align: left;
+  padding-left: 0; /* Resetting left padding */
+}
+
+.project-video {
+  width: 40%; /* Set width to 50% */
+  flex-shrink: 0;
+}
+
+.project-video video {
+  width: 100%;
+  height: auto;
+}
+
+.project-info h2 {
+  font-family: 'sinkin-sans300', sans-serif;
+  font-size: 30px;
+  padding-left: 0;
+}
+
+.project-info p {
+  font-family: 'sinkin-sans300', sans-serif;
+  font-size: 15px;
+  padding-left: 0;
+  padding-right: 30px;
+}

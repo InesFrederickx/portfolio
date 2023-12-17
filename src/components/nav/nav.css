@@ -1,4 +1,9 @@
 @import url(../../fonts.css);
+ 
+.nav-item.active {
+    border-bottom: 2px solid black; /* Adjust the thickness (3px) and color as needed */
+  padding-bottom: 3px;
+  }
 
 .navbar {
     display: flex;

@@ -1,6 +1,7 @@
 @import url(../../fonts.css);
 
-.home {
+.home-page {
+    position: relative;
     min-height: calc(100vh - 326px);
     width: 100%;
 }
@@ -18,5 +19,5 @@
 
     position: absolute;
     right: 80px;
-    bottom: 50px;
+    bottom: 0px;
 }

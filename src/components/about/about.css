@@ -1,7 +1,7 @@
 @import url(../../fonts.css);
 
 
-.about {
+.about-page {
     position: relative;
     min-height: 100vh;
     width: 100%;
@@ -18,7 +18,7 @@
     font-family: 'sinkin-sans300', sans-serif;
     font-size: 20px;
     text-align: center;
-    padding: 0 300px;
+    padding: 0 200px;
 }
 
 
@@ -63,7 +63,7 @@
     border: 1px solid black;
 }
 
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
 .skills-container {
     grid-template-columns: 1fr;
     justify-content: center;
@@ -74,4 +74,4 @@
     padding: 4px 8px;
     font-size: 0.7em;
 }
-}*/
+}
