@@ -1,4 +1,3 @@
-// In Nav.js
 import React, { Component } from 'react';
 import './nav.css';
 import logo from '../../assets/logo.png';
@@ -11,7 +10,7 @@ export class Nav extends Component {
         <div className='container'>
           <div className="nav-links">
             <a href="#about" className={`nav-item ${activeSection === 'about' ? 'active' : ''}`}>ABOUT</a>
-            <a href="#projects" className={`nav-item ${activeSection === 'projects' ? 'active' : ''}`}>WORK</a>
+            <a href="#projects" className={`nav-item ${activeSection === 'projects' ? 'active' : ''}`}>PROJECTS</a>
             <a href="#contact" className={`nav-item ${activeSection === 'contact' ? 'active' : ''}`}>CONTACT</a>
           </div>
           <a href="#">

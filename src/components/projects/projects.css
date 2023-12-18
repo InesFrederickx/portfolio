@@ -1,42 +1,13 @@
 @import url(../../fonts.css);
 
-.title {
-  font-family: 'sinkin-sans100', sans-serif;
-  font-size: 30px;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.projects-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.project-section {
+.projects-page {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.project-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px; /* Adjusted spacing between text and video */
-  width: 100%;
-}
-
-.project-info {
-  width: 50%; /* Set width to 50% */
-  text-align: left;
-  padding-left: 0; /* Resetting left padding */
 }
 
 .project-video {
   width: 40%; /* Set width to 50% */
   flex-shrink: 0;
+  padding-right: 60px;
 }
 
 .project-video video {
@@ -44,15 +15,31 @@
   height: auto;
 }
 
-.project-info h2 {
+.container-projects {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  height: 80vh;
+  overflow: hidden;
+  flex-direction: row;
+  gap: 20px; /* Adjusted spacing between text and video */
+  width: 90%;
+  margin-left: 90px;
+  margin-top: -50px;
+}
+
+.banner h1{
   font-family: 'sinkin-sans300', sans-serif;
   font-size: 30px;
   padding-left: 0;
 }
 
-.project-info p {
+.banner p{
   font-family: 'sinkin-sans300', sans-serif;
+  width: 100%;
+  text-align: left;
   font-size: 15px;
   padding-left: 0;
-  padding-right: 30px;
 }
