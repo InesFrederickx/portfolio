@@ -2,11 +2,9 @@
 
 This is my portfolio. Here you can find more information about me, a couple of my recent projects, and my contact information. :)
 
+Don't forget to first run 'npm install'.
+
 ## Available Scripts
-
-First you'll have to run:
-
-### `npm install`
 
 In the project directory, you can run:
 
