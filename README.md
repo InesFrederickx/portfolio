@@ -4,6 +4,10 @@ This is my portfolio. Here you can find more information about me, a couple of m
 
 ## Available Scripts
 
+First you'll have to run:
+
+### `npm install`
+
 In the project directory, you can run:
 
 ### `npm start`
